@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="terrain2" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Desktop/tiles/map/tuiles/terrain2.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="1025" name="terrain" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Desktop/tiles/map/tuiles/terrain.png" width="672" height="736"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Quw3AIBQDQN4kZG5GSwObENp8KhoicSe5cWU5JQAAAJjTRkrcU1eP2tn4/3ykr960sSPeXf7oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPifC0Q+XjJAnAAA
+  </data>
+ </layer>
+</map>

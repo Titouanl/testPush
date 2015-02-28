@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="collisions" tilewidth="32" tileheight="32">
+  <image source="tuiles/collisions/collisions.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="26" name="grass" tilewidth="32" tileheight="32">
+  <image source="tuiles/LPC Base Assets/tiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="44" name="waterfall" tilewidth="32" tileheight="32">
+  <image source="tuiles/LPC Base Assets/tiles/waterfall.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="59" name="treetop" tilewidth="32" tileheight="32">
+  <image source="tuiles/LPC Base Assets/tiles/treetop.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="101" name="rock" tilewidth="32" tileheight="32">
+  <image source="tuiles/LPC Base Assets/tiles/rock.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="103" name="mountains" tilewidth="32" tileheight="32">
+  <image source="tuiles/LPC Base Assets/tiles/mountains.png" width="384" height="288"/>
+ </tileset>
+ <tileset firstgid="211" name="water" tilewidth="32" tileheight="32">
+  <image source="tuiles/LPC Base Assets/tiles/water.png" width="96" height="192"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WQQ7CIBBA0R6mG/X+93PjqokMDgMl8b2EVXXDL0zP4zjOhYu2lS30iGmxl969fP7wW03ynI+9mB97ydxNj8/K3G20Zd7xnh7fmtA2a27rkTO6v3rUmjW39ciZtf965PTu9yt4rkeNillx/Y/vq7zq+6rVQo/Y6Lm4ngktxlTM7t5FrOq+0qPGyh6axFb30KRNh71U7XXPjCfmfOxFj/+iAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAPd410zSyQJwAAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3auw3CQBBFURdDa+4BcugCCuNr6IQJnXhh7QWN5HOkFzkZ6QabuO+6rp/YNrarGMv1hW96/N9Uj01sHztUjOVKPY6xU8VYrtTj02iv9H6UnGOX0a7NLlq3uT1usftoj2YXrdvcHkPsOdqrzTmrN7cHv6FHLnrkokcueuSiRy565KJHLnrkokcueuSiRy565KJHLlP/ltSMHPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDvvAGvGP91QJwAAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XOUoEQRiG4T6Q+66BGqiBGrjvGqiHcEEzTyCaeTMx8iB+DA0jHcwiM/TgPA+8QRcFXfAHRRVFe/vpIB1W1j/Td/oqv+/b9NDBv2jvNJ2l88q6eQyWkTSaxsrvl7LHwjx6YTmtpNUO94+niTRZfn+UvRbm0QtraT1tdLh/Kk2nmcr6XWEevbCZttJ2h/tn01yar6ybRz0W0mJaqqybx2B5Lpp3+++e6jzUEHsvmnf7797qPBTwL+2k3bRX90FoOErH6aTug9BwkS7TVYs93b7l+bvrdJNuW+zp9i1Pf3X7lgfoN/f2YHFvDxb3NgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyPHxwvcu5AnAAA
+  </data>
+ </layer>
+ <layer name="logic" width="100" height="100" opacity="0.5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3a0QqCMBQG4HlTRhL1/i9bFwlrrBinGau+Dw5WB0HOnzjFKaU0BStlW/p4Nc+WPOirJY9dVvLYVj7X4632t1ru33fBOn3iwH/UVHzu8d+f39z/n0XzWM+ltZasJ4+46Lkwp8f8DkWPmGge5/R4zbhkvbno0W6LdVKZlWzaWbeORR5jeZbH/qNHwaqWx/H++1Lpsa1aHi33IeW9PH3UZr6ujy6VXr6f51j9Recpj22Y51jkMRZ5jEUeY5HHWOQxlui7Jda7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAt7oCN7Qht0CcAAA=
+  </data>
+ </layer>
+</map>

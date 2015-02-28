@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="testTiles" tilewidth="32" tileheight="32">
+  <image source="tuiles/LPC Base Assets/tiles/dirt.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="19" name="test2" tilewidth="32" tileheight="32">
+  <image source="tuiles/LPC Base Assets/tiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="37" name="water" tilewidth="32" tileheight="32">
+  <image source="tuiles/LPC Base Assets/tiles/water.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="55" name="treetop" tilewidth="32" tileheight="32">
+  <image source="tuiles/LPC Base Assets/tiles/treetop.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="97" name="waterfall" tilewidth="32" tileheight="32">
+  <image source="tuiles/LPC Base Assets/tiles/waterfall.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="112" name="rock" tilewidth="32" tileheight="32">
+  <image source="tuiles/LPC Base Assets/tiles/rock.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="114" name="collisions" tilewidth="32" tileheight="32">
+  <image source="tuiles/collisions/collisions.png" width="160" height="160"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XMY7CMBBAUV+ExrsH5P7Vagsky8w4iScFQu9JlggkjT+Ok0dr7XHTeA6f2TPO5880Kj002TP3qLTRoy7rsVo32Xl61O3M+2p9jNdwXdQjOz5q95yu4bp5brO5jn7L7lev37kum9usydn9Q489qxY9+G61RqyPutWe0Vvc5H/8BmPsYf/YE62N8bi39xavc6Ienq9qVj3mBn06Z2zhefceR/t4b+/3rdXzrvfBmqN3vKjFOOb1oUfNlffvuUF0v9Kj5sxcZ/Ovx/3O/v9XXaL3QT327NyvsqHH59ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgG/2B3DC43JAnAAA
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZvUoDQRSA0e3EQnwCm7T+a6EWmiLaqYVaRAv1EfL+lVdwybIMgbgz2cCcA1+VLS57E2aTLJqmWWSK4da5j5O/fh10Ip//vq/to4x193EYHfU6zj1Uxfr7mCSvWjqJTnudFZirVqnPx1V0Hd0kXjuPLnpdFpuuPql93EZ30XTDs5Dexyy6jx42PAvDvjd0z3Zneh5D9tE9253pedjHdhmyj+6zlmesPPzutF3afTxGT9HziLOw3MdL9Bq9rbh2J9otPlHd2n3Mo/foY8W1e9F+8Ynq1u7jM/qKvscbhSbff1GeC8bj/gMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQmx98tRz+QJwAAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OOQqAQAAEQb/qfev/M4fNTUTYpAo6HJim+aZNXeo/7vnXkMY01T5CMaclrbWPUGxpT0ftIxRnutJd+wgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAiwfq9yr+QJwAAA==
+  </data>
+ </layer>
+ <layer name="logic" width="100" height="100" opacity="0.4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZwQqCUBAF0PfNQmWSi1z03QUmPEwknSGEzoHZVNzFHWGEmlJKkzjEZHX4SMz6Z/ZxLFs7vL2mnU1f7CPL1g6v5fNmdMU+six1eHp/fl747v6ay2yGlSy2Wepw7/uSfcQtdVg/+9Estol0WN/2PpjFKNJhfdu7YBYj+ziWSIf1u9YQzGKU2aF9xNUdtolZ7DN1ON2CLiGL/ezjWKYOp9s8rPz22yz2y/wvyj5+S+cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/Ksnq6yF8kCcAAA=
+  </data>
+ </layer>
+ <objectgroup color="#ffaaff" name="trigger" width="0" height="0">
+  <object name="tp1" type="teleport" x="173" y="418" width="56" height="57">
+   <properties>
+    <property name="dest-x" value="300"/>
+    <property name="dest-y" value="300"/>
+   </properties>
+  </object>
+  <object name="go-map2" type="change-map" x="339" y="435" width="84" height="88">
+   <properties>
+    <property name="dest-map" value="testMap2.tmx"/>
+    <property name="dest-x" value="300"/>
+    <property name="dest-y" value="300"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
